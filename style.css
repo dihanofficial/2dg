@@ -1,0 +1,183 @@
+.background {
+    position: absolute;
+    background-image: url("background.png");
+    background-size: cover;
+
+    width: 100vw;
+    height: 100vh;
+
+    overflow-x: hidden;
+
+}
+
+.block {
+    background-image: url("flame.gif");
+    position: fixed;
+    background-size: cover;
+    width: 90px;
+    height: 150px;
+    margin-top: 300px;
+}
+
+
+.body {
+    margin: 0px;
+}
+
+
+.boy {
+    position: absolute;
+    width: 300px;
+    margin-top: 325px;
+
+}
+
+.score {
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial;
+    margin-left: 310px;
+    margin-top: 10px;
+}
+
+
+
+.end {
+    width: 450px;
+    height: 425px;
+    position: absolute;
+    background-color: white;
+    font-size: 75px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+    margin-left: 450px;
+    margin-top: -70px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    visibility: hidden;
+}
+
+
+
+.bg1to2 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    font-size: 75px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+
+}
+
+
+.btn {
+    width: 300px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.mm {
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.ngame {
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.btn1 {
+    width: 300px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.sc1 {
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    margin-top: 6px;
+    color: black;
+}
+
+
+.d1 {
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    color: black;
+    margin-top: 200px;
+    margin-left: 500px;
+}
+
+.d2 {
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    color: black;
+    margin-top: 300px;
+    margin-left: 500px;
+}
+
+
+.bg101 {
+    position: absolute;
+    background-image: url("20230709_155715.png");
+    background-size: cover;
+
+    width: 100vw;
+    height: 100vh;
+}

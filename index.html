@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Play Now ! | Red Hat Boy</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="Idle (1).png"/>
+</head>
+
+<body onkeyup="keyCheck(event);" class="body">
+
+    <div class="background" id="background">
+        <img src="Idle (1).png" class="boy" id="boy" />
+        <div class="sc1">Your Score-</div>
+        <div class="score" id="score">0</div>
+        <a href="start.html"><button class="mm">Main Menu</button></a>
+        <button onclick="reload();" class="ngame"> Refresh!</button>
+
+        <div class="end" id="endScreen">
+
+            <div> Game Over!</div>
+            <div>Your Score</div>
+            <div class="endScore" id="endScore">0</div>
+            <button onclick="reload();" class="btn1"> Try Again !!</button>
+            <a href="start.html"> <button class="btn">Main Menu</button></a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
